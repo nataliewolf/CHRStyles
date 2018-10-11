@@ -6,6 +6,7 @@ body{
 	color: #004986 !important;
 	background-color: #F5F5F5 !important;
 	font-family: 'Yantramanav', sans-serif;
+	font-size: 16px;
 }
 
 #document{
@@ -21,6 +22,9 @@ div#header{
 
 div#header img{
 	height: 40px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
 }
 
 div#header > h1 {
