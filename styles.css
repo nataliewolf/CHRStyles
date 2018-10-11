@@ -1,8 +1,66 @@
+body{
+	color: #004986 !important;
+	background-color: #F5F5F5 !important;
+}
+
+#document{
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
 div#header{
 	border-bottom: none !important;
 }
 
-body{
-	color: red !important;
+div#header img{
+	height: 40px;
 }
 
+div#header > h1 {
+	color: #004986 !important;
+}
+
+#choose_payment_option{
+	margin: 0;
+}
+
+#cc.custom_form{
+	width: 100%;
+}
+
+div.custom_field_row div.custom_field{
+	width: 100%;
+	margin-bottom: 15px;
+	margin-right: 0;
+	display: block;
+}
+
+div.custom_field_row, div.custom_field{
+	margin-bottom: 0;
+}
+
+div#cards{
+	margin-top: 4px;
+}
+
+input[type="submit"]{
+	margin-top: 0;
+	color: #FFF;
+	background-color: #00A3E0;
+	border: none;
+}
+
+input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus{
+	background-color:#0086D6;
+}
+
+
+input{
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 16px;
+	margin: 0;
+	box-sizing: border-box;
+}
