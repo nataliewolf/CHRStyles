@@ -1,6 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Yantramanav:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:700);
+@charset "UTF-8";
+
 body{
 	color: #004986 !important;
 	background-color: #F5F5F5 !important;
+	font-family: 'Yantramanav', sans-serif;
 }
 
 #document{
@@ -11,6 +16,7 @@ body{
 
 div#header{
 	border-bottom: none !important;
+	text-align: center;
 }
 
 div#header img{
@@ -19,6 +25,8 @@ div#header img{
 
 div#header > h1 {
 	color: #004986 !important;
+	font-family: 'Titillium', sans-serif;
+	font-weight: 700;
 }
 
 #choose_payment_option{
@@ -27,6 +35,10 @@ div#header > h1 {
 
 #cc.custom_form{
 	width: 100%;
+}
+
+#cc > h1{
+	display: none;
 }
 
 div.custom_field_row div.custom_field{
