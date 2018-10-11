@@ -10,7 +10,7 @@ body{
 }
 
 div#header{
-	border-bottom: none;
+	border-bottom: none !important;
 }
 
 div#header img{
