@@ -88,10 +88,10 @@ input{
 	box-sizing: border-box;
 }
 
-#progress-indicator-input #progress-indicator{
+#progress-indicator-input > #progress-indicator{
 	color: green !important;
 }
 
-#progress-indicator-input #progress-indicator span{
+#progress-indicator-input > #progress-indicator > span{
 	color: purple !important;
 }
